@@ -35,7 +35,6 @@ Each folder holds the solutions for one topic. Files are named after the problem
 1. Try the problem on my own first, usually the brute force.
 2. Understand why it is slow or wrong.
 3. Improve it step by step to the optimal solution.
-4. Note the time and space complexity in a comment on the solution.
 
 ## Running a Solution
 
@@ -48,11 +47,8 @@ java -cp Sorting BubbleSort
 
 Replace the path and class name with the file you want to run. Files that declare a `package` need to be run from the project root using the full package name, for example `java -cp . Hashing.Chaining.mainCls`.
 
-## Notes
-
-- Problem statements belong to their respective platforms (LeetCode, GeeksforGeeks, Coding Ninjas). I link to them instead of copying them.
-- The explanations and code are my own.
-
 ## Connect
 
-GitHub: [@Suresh-kumar04](https://github.com/Suresh-kumar04)
+- GitHub: [@Suresh-kumar04](https://github.com/Suresh-kumar04)
+- LinkedIn: [Suresh Kumar](https://www.linkedin.com/in/suresh-kumar4k)
+- Discord: suresh5244
