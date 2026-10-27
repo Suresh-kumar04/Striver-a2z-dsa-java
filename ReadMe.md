@@ -28,7 +28,6 @@ Each folder holds the solutions for one topic. Files are named after the problem
 | Huffman Coding | [Huffman-coding](./Huffman-coding) | ✅ Done |
 | Euclid-Euler Perfect Number | [EcluidPrecfectNumber](./EcluidPrecfectNumber) | ✅ Done |
 
-**Legend:** ✅ Done · 🚧 In progress
 
 ## How I Practice
 
