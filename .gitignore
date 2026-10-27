@@ -1,0 +1,8 @@
+*.class
+.idea/
+out/
+*.iml
+000imp/
+001EasyButTripy/
+silly/
+DONOT.txt
