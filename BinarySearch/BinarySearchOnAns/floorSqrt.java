@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.BinarySearchOnAns;
 public class floorSqrt {
     public static void main(String[] args) {
         System.out.println(floorSqrt(4));

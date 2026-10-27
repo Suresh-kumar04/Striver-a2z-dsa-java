@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.BinarySearchOnAns;
 public class NthSqrt {
 
     public static void main(String[] args) {

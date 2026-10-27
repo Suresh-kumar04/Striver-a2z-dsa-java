@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.BinarySearchOnAns;
 public class SmallestDivisor {
     public static void main(String[] args) {
         int[] nums = {1, 2, 5, 9};
