@@ -1,4 +1,4 @@
-package StriverDsa.BinarySearch;
+package BinarySearch;
 
 public class CountOccurance {
     public static void main(String[] args) {

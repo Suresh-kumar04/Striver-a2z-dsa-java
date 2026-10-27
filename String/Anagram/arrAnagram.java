@@ -1,11 +1,13 @@
-package StriverDsa.String.Anagram;
+package String.Anagram;
 
 public class arrAnagram {
 
-  public static void main(String[] args) {}
+  public static void main(String[] args) {
+  }
 
   public boolean anagramStrings(String s, String t) {
-    if (s.length() != t.length()) return false;
+    if (s.length() != t.length())
+      return false;
 
     int[] freq = new int[26];
 
@@ -15,7 +17,8 @@ public class arrAnagram {
     }
 
     for (int count : freq) {
-      if (count != 0) return false;
+      if (count != 0)
+        return false;
     }
 
     return true;

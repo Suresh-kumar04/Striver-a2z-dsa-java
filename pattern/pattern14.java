@@ -1,14 +1,14 @@
-package StriverDsa.pattern;
+package pattern;
 
 public class pattern14 {
 
   /*
-    A
-    A B
-    A B C
-    A B C D
-    A B C D E
-    */
+   * A
+   * A B
+   * A B C
+   * A B C D
+   * A B C D E
+   */
   public static void main(String[] args) {
     int ch = 'A';
     int n = 5;

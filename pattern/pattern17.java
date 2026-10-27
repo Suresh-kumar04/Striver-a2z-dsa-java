@@ -1,12 +1,12 @@
-package StriverDsa.pattern;
+package pattern;
 
 public class pattern17 {
 
   public static void main(String[] args) {
-    //      A
-    //    ABA
-    //   ABCBA
-    //  ABCDCBA
+    // A
+    // ABA
+    // ABCBA
+    // ABCDCBA
     // ABCDEDCBA
     int n = 5;
     int ch = 'A';
@@ -24,7 +24,7 @@ public class pattern17 {
       }
 
       // while(ch>='A'){
-      //     System.out.print((char)ch--);
+      // System.out.print((char)ch--);
       // }
       System.out.println();
     }

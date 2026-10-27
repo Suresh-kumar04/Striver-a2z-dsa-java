@@ -1,9 +1,10 @@
-package StriverDsa.BasicRecurrsion;
+package BasicRecurrsion;
 
 public class sumofN {
 
   public static void main(String[] args) {
-    //    Given an integer N, return the sum of first N natural numbers. Try to solve this using recursion.
+    // Given an integer N, return the sum of first N natural numbers. Try to solve
+    // this using recursion.
 
     // Example 1
 

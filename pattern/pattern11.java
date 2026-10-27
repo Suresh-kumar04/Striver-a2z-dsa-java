@@ -1,4 +1,4 @@
-package StriverDsa.pattern;
+package pattern;
 
 /*
 1

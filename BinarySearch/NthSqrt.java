@@ -1,4 +1,6 @@
+package BinarySearch;
 public class NthSqrt {
+
     public static void main(String[] args) {
         System.out.println(NthRoot(3,27));
     }

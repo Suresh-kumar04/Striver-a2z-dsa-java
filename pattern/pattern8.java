@@ -1,10 +1,10 @@
-package StriverDsa.pattern;
+package pattern;
 
 class pattern8 {
 
   /*
-*********
- *******
+  *********
+  *******
   *****
    ***
     *

@@ -1,4 +1,4 @@
-package StriverDsa.BinarySearch;
+package BinarySearch;
 
 import java.util.ArrayList;
 

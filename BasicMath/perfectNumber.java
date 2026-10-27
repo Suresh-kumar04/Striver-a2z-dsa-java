@@ -1,4 +1,4 @@
-package StriverDsa.BasicMath;
+package BasicMath;
 
 /**
  * perfectNumber
@@ -11,9 +11,11 @@ public class perfectNumber {
 
   public static boolean isPerfect(int n) {
     int sum = 1;
-    if (n <= 1) return false;
+    if (n <= 1)
+      return false;
     for (int i = 2; i <= Math.sqrt(n); i++) {
-      if (sum > n) return false;
+      if (sum > n)
+        return false;
       if (n % i == 0) {
         sum += i;
         if (i != n / i) {

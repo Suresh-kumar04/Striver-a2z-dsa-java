@@ -1,4 +1,4 @@
-package StriverDsa.pattern;
+package pattern;
 
 public class pattern9 {
 
@@ -7,16 +7,16 @@ public class pattern9 {
         
         
     * 
-   ***
-  *****
- *******
-*********
-*********
- *******
-  *****
-   ***
+    ***
+    *****
+    *******
+    *********
+    *********
+    *******
+    *****
+    ***
     *
-
+    
         
         */
     int n = 5;

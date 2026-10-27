@@ -1,4 +1,4 @@
-package StriverDsa.BasicRecurrsion;
+package BasicRecurrsion;
 
 public class one {
 

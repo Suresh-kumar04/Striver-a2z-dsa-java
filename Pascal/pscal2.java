@@ -1,4 +1,4 @@
-package StriverDsa.Pascal;
+package Pascal;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.List;
 
 public class pscal2 {
     public static void main(String[] args) {
-        //print nth row of pascal triangle
+        // print nth row of pascal triangle
         int[] res = pascalTriangleII(2);
         System.out.println(Arrays.toString(res));
     }

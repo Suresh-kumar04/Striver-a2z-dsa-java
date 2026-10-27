@@ -1,4 +1,4 @@
-package StriverDsa.DutchFlagDijstra;
+package DutchFlagDijstra;
 
 import java.util.Arrays;
 

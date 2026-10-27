@@ -1,11 +1,12 @@
-package StriverDsa.HashingImp;
+package HashingImp;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class SeconLaregestFreq {
 
-  public static void main(String[] args) {}
+  public static void main(String[] args) {
+  }
 
   public int secondMostFrequentElement(int[] nums) {
     Map<Integer, Integer> map = new HashMap<>();
@@ -21,12 +22,12 @@ public class SeconLaregestFreq {
       int freq = entry.getValue();
       int element = entry.getKey();
       if (freq < firstMax) {
-        //instead of Math.max ... imp
+        // instead of Math.max ... imp
         if (freq > secondMax) {
           secondMax = freq;
           E = element;
         }
-        //if same count , return smalllest as per question
+        // if same count , return smalllest as per question
         else if (freq == secondMax) {
           if (element < E) {
             secondMax = freq;
@@ -40,6 +41,7 @@ public class SeconLaregestFreq {
 }
 // Given an array of n integers, find the second most frequent element in it.
 
-// If there are multiple elements that appear second most frequent times, find the smallest of them.
+// If there are multiple elements that appear second most frequent times, find
+// the smallest of them.
 
 // If second most frequent element does not exist return -1.

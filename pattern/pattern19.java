@@ -1,18 +1,18 @@
-package StriverDsa.pattern;
+package pattern;
 
 public class pattern19 {
 
   public static void main(String[] args) {
     // 2*n -i*2 found myself!!!
     // **********
-    // ***  ****
-    // ***    ***
-    // **      **
-    // *        *
-    // *        **
-    // **      **
-    // ***    ***
-    // ****  ****
+    // *** ****
+    // *** ***
+    // ** **
+    // * *
+    // * **
+    // ** **
+    // *** ***
+    // **** ****
     // **********
     int n = 5;
     for (int i = 1; i <= n; i++) {

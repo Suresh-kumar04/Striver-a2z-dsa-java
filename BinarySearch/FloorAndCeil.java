@@ -1,4 +1,4 @@
-package StriverDsa.BinarySearch;
+package BinarySearch;
 
 public class FloorAndCeil {
     public static void main(String[] args) {

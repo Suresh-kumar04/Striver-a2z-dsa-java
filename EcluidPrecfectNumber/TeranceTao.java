@@ -1,13 +1,15 @@
-package StriverDsa.EcluidPrecfectNumber;
+package EcluidPrecfectNumber;
 
 public class TeranceTao {
 
   public static void main(String[] args) {
-    // Euclid's theorem says that if 2^p − 1 is prime (a Mersenne prime), then 2^(p−1) × (2^p − 1) is a perfect number.
+    // Euclid's theorem says that if 2^p − 1 is prime (a Mersenne prime), then
+    // 2^(p−1) × (2^p − 1) is a perfect number.
     // You give it p.
     // It converts p into 2^p − 1 (the Mersenne number).
     // It checks whether that is prime.
-    // If yes, it builds 2^(p−1) × (2^p − 1) and prints it. That's the perfect number.
+    // If yes, it builds 2^(p−1) × (2^p − 1) and prints it. That's the perfect
+    // number.
     isPerfect(6);
   }
 
@@ -22,7 +24,8 @@ public class TeranceTao {
   }
 
   static boolean isPrime(long n) {
-    if (n < 2) return false;
+    if (n < 2)
+      return false;
     for (int i = 2; i * i <= n; i++) {
       if (n % i == 0) {
         return false;

@@ -1,4 +1,4 @@
-package StriverDsa.String;
+package String;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,7 +7,8 @@ import java.util.Map;
 
 public class SortCharByFreq {
 
-  public static void main(String[] args) {}
+  public static void main(String[] args) {
+  }
 
   public List<Character> frequencySort(String s) {
     // Your code goes here
@@ -17,7 +18,7 @@ public class SortCharByFreq {
     }
     List<Character> list = new ArrayList<>(map.keySet());
     list.sort((a, b) -> {
-      //!= could cause logical erorr after Integer cahce exceeds
+      // != could cause logical erorr after Integer cahce exceeds
       if (!map.get(a).equals(map.get(b))) {
         return map.get(b) - map.get(a);
       }

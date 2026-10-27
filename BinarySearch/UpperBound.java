@@ -1,4 +1,4 @@
-package StriverDsa.BinarySearch;
+package BinarySearch;
 
 public class UpperBound {
     public static void main(String[] args) {
@@ -7,22 +7,21 @@ public class UpperBound {
         int index = upperBound(nums, x);
         System.out.println("Upper bound of " + x + " is at index: " + index);
     }
-     public static int upperBound(int[] nums, int x) {
-        int s=0;
+
+    public static int upperBound(int[] nums, int x) {
+        int s = 0;
         int n = nums.length;
         int ans = n;
-        int e = n-1;
-        while(s <= e){
-            int mid = s+(e-s)/2;
-            if(nums[mid] > x){
+        int e = n - 1;
+        while (s <= e) {
+            int mid = s + (e - s) / 2;
+            if (nums[mid] > x) {
                 ans = mid;
-                e = mid-1;
-          }else{
-                s = mid+1;
+                e = mid - 1;
+            } else {
+                s = mid + 1;
             }
         }
         return ans;
     }
 }
-
-

@@ -1,4 +1,4 @@
-package StriverDsa.HashingImp;
+package HashingImp;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,8 +7,7 @@ public class SumofHighestAndLowestFreq {
 
   public static void main(String[] args) {
     System.out.println(
-      sumHighestAndLowestFrequency(new int[] { 1, 3, 3, 3, 3 })
-    );
+        sumHighestAndLowestFrequency(new int[] { 1, 3, 3, 3, 3 }));
   }
 
   public static int sumHighestAndLowestFrequency(int[] nums) {
@@ -20,12 +19,12 @@ public class SumofHighestAndLowestFreq {
       map.put(i, map.getOrDefault(i, 0) + 1);
       max = Math.max(max, map.get(i));
     }
-    //cant put min up cuz .....
-    //nums = [1, 1, 1, 2, 2]
-    //1 → 1
+    // cant put min up cuz .....
+    // nums = [1, 1, 1, 2, 2]
+    // 1 → 1
     // 1 → 2
     // 1 → 3 //max done
-    // 2 → 1   ← min stays 1
+    // 2 → 1 ← min stays 1
     // 2 → 2
     for (int freq : map.values()) {
       min = Math.min(min, freq);
@@ -34,4 +33,5 @@ public class SumofHighestAndLowestFreq {
   }
 }
 
-// Given an array of n integers, find the sum of the frequencies of the highest occurring number and lowest occurring number.
+// Given an array of n integers, find the sum of the frequencies of the highest
+// occurring number and lowest occurring number.

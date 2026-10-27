@@ -1,13 +1,13 @@
-package StriverDsa.pattern;
+package pattern;
 
 public class pattern7 {
 
   /*
    * Pattern:
-   *     *
-   *    ***
-   *   *****
-   *  *******
+   * *
+   * ***
+   * *****
+   * *******
    * *********
    */
   public static void main(String[] args) {

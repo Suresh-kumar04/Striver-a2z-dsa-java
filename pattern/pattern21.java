@@ -1,12 +1,12 @@
-package StriverDsa.pattern;
+package pattern;
 
 public class pattern21 {
 
   public static void main(String[] args) {
     // *****
-    // *   *
-    // *   *
-    // *   *
+    // * *
+    // * *
+    // * *
     // *****
 
     int n = 5;

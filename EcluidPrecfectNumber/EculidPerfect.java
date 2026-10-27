@@ -1,4 +1,4 @@
-package StriverDsa.EcluidPrecfectNumber;
+package EcluidPrecfectNumber;
 
 public class EculidPerfect {
 
@@ -7,7 +7,8 @@ public class EculidPerfect {
   }
 
   static boolean isPrime(long n) {
-    if (n < 2) return false;
+    if (n < 2)
+      return false;
     for (long i = 2; n * n <= i; i++) {
       if (n % i == 0) {
         return false;
@@ -17,7 +18,8 @@ public class EculidPerfect {
   }
 
   static long EuclidPerfect(long p) {
-    // Euclid's theorem says that if 2^p − 1 is prime (a Mersenne prime), then 2^(p−1) × (2^p − 1) is a perfect number.
+    // Euclid's theorem says that if 2^p − 1 is prime (a Mersenne prime), then
+    // 2^(p−1) × (2^p − 1) is a perfect number.
     long Mersenne = (1L << p) - 1;
     if (!isPrime(Mersenne)) {
       return 0;
@@ -33,9 +35,12 @@ public class EculidPerfect {
     // So p <= 31
     for (int p = 2; p <= 31; p++) {
       long perfect = EuclidPerfect(p);
-      if (perfect == 0) continue;
-      if (perfect > n) return false;
-      if (perfect == n) return true;
+      if (perfect == 0)
+        continue;
+      if (perfect > n)
+        return false;
+      if (perfect == n)
+        return true;
     }
     return false;
   }
