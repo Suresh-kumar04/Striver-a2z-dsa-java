@@ -1,4 +1,4 @@
-package BinarySearch.FAQ;
+package BinarySearch.FAQ.Aggressivecows;
 
 import java.util.Arrays;
 
