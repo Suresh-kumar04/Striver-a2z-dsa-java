@@ -1,4 +1,4 @@
-package BinarySearch.FAQ;
+package BinarySearch.FAQ.FindPeak;
 
 public class FindPeakElement {
     public static void main(String[] args) {
