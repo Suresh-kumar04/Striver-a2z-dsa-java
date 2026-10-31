@@ -1,4 +1,4 @@
-package Arrays.oddEvenWowow;
+package Arrays.oddEven;
 
 import java.util.Arrays;
 
