@@ -19,8 +19,8 @@ Each folder holds the solutions for one topic. Files are named after the problem
 | Majority Element | [MajorityElement](./MajorityElement) | ✅ Done |
 | Dutch National Flag | [DutchFlagDijstra](./DutchFlagDijstra) | ✅ Done |
 | Pascal's Triangle | [Pascal](./Pascal) | ✅ Done |
-| Binary Search | [BinarySearch](./BinarySearch) | 🚧 In progress |
-| Strings | [String](./String) | ✅ Done |
+| Binary Search | [BinarySearch](./BinarySearch) | ✅ Done  |
+| Strings | [String](./String) | 🚧 In progress |
 | Bit Manipulation | [BitSetClass](./BitSetClass) | ✅ Done |
 | Priority Queue / Heaps | [PriorityQueue](./PriorityQueue) | ✅ Done |
 | Hashing | [HashingImp](./HashingImp) | ✅ Done |
