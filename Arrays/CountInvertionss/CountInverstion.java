@@ -1,4 +1,4 @@
-
+package Arrays.CountInvertionss;
 public class CountInverstion {
     public static void main(String[] args) {
         int[] nums = {2,3,12,44,55,1};
