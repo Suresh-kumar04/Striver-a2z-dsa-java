@@ -1,20 +1,20 @@
 import java.util.Arrays;
 
-class mergesort {
+class MergeSort {
 
   public static void main(String[] args) {
 
     int[] nums = { -99, 3, 0, 88, 4, 66, 8, 01, 1 };
-    MergeSort(nums, 0, nums.length - 1);
+    ms(nums, 0, nums.length - 1);
     IO.print(Arrays.toString(nums));
   }
 
-  static void MergeSort(int[] arr, int low, int high) {
+  static void ms(int[] arr, int low, int high) {
     if (low >= high)
       return ;
     int mid = (low + high) / 2;
-    MergeSort(arr, low, mid);
-    MergeSort(arr, mid + 1, high);
+    ms(arr, low, mid);
+    ms(arr, mid + 1, high);
     merge(arr, low, mid, high);
     
   }
