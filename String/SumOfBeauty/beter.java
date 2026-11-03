@@ -1,6 +1,7 @@
 package String.SumOfBeauty;
 
 public class beter {
+    //O(N*N*26) 
     public int beautySum(String s) {
         int n = s.length();
         int sum =0;
