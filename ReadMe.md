@@ -20,7 +20,8 @@ Each folder holds the solutions for one topic. Files are named after the problem
 | Dutch National Flag | [DutchFlagDijstra](./DutchFlagDijstra) | ✅ Done |
 | Pascal's Triangle | [Pascal](./Pascal) | ✅ Done |
 | Binary Search | [BinarySearch](./BinarySearch) | ✅ Done  |
-| Strings | [String](./String) | 🚧 In progress |
+| Strings | [String](./String) | ✅ Done  |
+| Recursion | [Recursion](./Recursion/) | 🚧 In progress |
 | Bit Manipulation | [BitSetClass](./BitSetClass) | ✅ Done |
 | Priority Queue / Heaps | [PriorityQueue](./PriorityQueue) | ✅ Done |
 | Hashing | [HashingImp](./HashingImp) | ✅ Done |
