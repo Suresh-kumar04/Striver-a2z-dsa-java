@@ -38,7 +38,7 @@ Each folder holds the solutions for one topic. Files are named after the problem
 
 ## Running a Solution
 
-Requires JDK 17 or later.
+Requires JDK 25 or later.
 
 ```bash
 javac Sorting/BubbleSort.java
