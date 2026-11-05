@@ -1,9 +1,10 @@
-package Recursion.Permutation;
+package Recursion.Permutation.UniquePermutation;
 
 import java.util.*;;
 
 public class UniquePermutation {
     public static void main(String[] args) {
+        //space - O(n^2) t-O(n*n!)
         Set<List<Integer>> res = new HashSet<>();
         int[] nums ={1,1,1};
         uniquepermutate(res, new ArrayList<>(), 0, nums);
