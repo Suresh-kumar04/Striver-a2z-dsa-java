@@ -20,7 +20,6 @@ public class PrintSubSets {
         return ;
       }
       curr.add(li.get(i));
-
       subsets(li, res, i+1, curr);
       curr.remove(curr.size()-1);
       subsets(li, res, i+1, curr);
