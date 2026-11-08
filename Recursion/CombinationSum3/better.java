@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class better {
+    //O(2^9 * k)
     public static void main(String[] args) {
         better b = new better();
         List<List<Integer>> res = b.combinationSum3(3, 8);
