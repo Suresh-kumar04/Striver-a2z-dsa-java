@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class optimal {
-    //O(n*2^n)
+     // O(T * C(n+T,T)), exponential in target/min , C(n+T,T) is the number of combinations, T is the target, n is the number of candidates
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         Arrays.sort(candidates);
         List<List<Integer>> res = new ArrayList<>();

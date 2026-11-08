@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class better {
-    
+   //Time = O(n · C(n+T, T)) + O(T · C(n+T, T)) = O( (n+T) · C(n+T, T) )
+// Space = recursion depth (≤ n + T + 1) + curr (≤ T) = O(n + T)
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();
         helper(res , new ArrayList<>(),candidates ,0 , target );
