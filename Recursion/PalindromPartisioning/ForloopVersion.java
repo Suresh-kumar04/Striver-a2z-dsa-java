@@ -1,11 +1,11 @@
-package Recursion;
+package Recursion.PalindromPartisioning;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class PalindromePartisioning {
+public class ForloopVersion {
     public static void main(String[] args) {
-        PalindromePartisioning pp = new PalindromePartisioning();
+        ForloopVersion pp = new ForloopVersion();
         System.out.println(pp.partition("aabbaa"));
     }
 
