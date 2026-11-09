@@ -29,6 +29,7 @@ void backtrack(String s, int idx, int start, List<String> curr, List<List<String
         curr.remove(curr.size()-1);
     }
 
+    //idx+1 could cross start, but that's fine, because we don't need to check if the current piece is a palindrome in that case
     backtrack(s, idx+1, start, curr, res);
 
 }
