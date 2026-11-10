@@ -1,10 +1,13 @@
-package Recursion.Grid_problems;
+package Recursion.Grid_problems.RatInMaze;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class RatInMaze {
     public static void main(String[] args) {
+        // Time: O(n^2 * 3^(n^2)) upper bound (3^(n^2) search states + O(n^2) copy per path found)
+        // Auxiliary space: O(n^2) (recursion stack + StringBuilder)
+        // Output space: O(P * n^2), where P = number of valid paths
         RatInMaze rm = new RatInMaze();
         int[][] grid = {{1, 0, 0, 0},
                         {1, 1, 0, 1},
