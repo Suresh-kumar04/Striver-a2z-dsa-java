@@ -21,7 +21,8 @@ Each folder holds the solutions for one topic. Files are named after the problem
 | Pascal's Triangle | [Pascal](./Pascal) | ✅ Done |
 | Binary Search | [BinarySearch](./BinarySearch) | ✅ Done  |
 | Strings | [String](./String) | ✅ Done  |
-| Recursion | [Recursion](./Recursion/) | 🚧 In progress |
+| Recursion | [Recursion](./Recursion/) | ✅ Done |
+| LinkedList | [LinkedList](./LinkedList/)| 🚧 In progress |
 | Bit Manipulation | [BitSetClass](./BitSetClass) | ✅ Done |
 | Priority Queue / Heaps | [PriorityQueue](./PriorityQueue) | ✅ Done |
 | Hashing | [HashingImp](./HashingImp) | ✅ Done |
