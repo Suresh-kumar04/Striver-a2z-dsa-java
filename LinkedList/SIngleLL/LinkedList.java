@@ -155,7 +155,7 @@ public class LinkedList<T> {
 
     @Override 
     public String toString(){
-        StringBuilder sb = new StringBuilder('[');
+        StringBuilder sb = new StringBuilder("[");
         for(Node<T> temp = head ; temp != null ; temp = temp.next){
             sb.append(temp.data);
             if(temp.next != null) sb.append("->");
