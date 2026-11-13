@@ -8,12 +8,17 @@ public class LinkedList<T> {
     private static class Node<E>{
         E data;
         Node<E> next;
+
         Node(E data ){
             this.data = data;
         }
 
-        
+        Node(E data , Node<E> next){
+            this.data = data;
+            this.next = next;
+        }
     }
+
     private Node<T> head , tail;
 
     public void add(T data){
