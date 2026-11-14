@@ -1,10 +1,13 @@
 package LinkedList.SIngleLL.DoublyLL;
 
+import java.util.Iterator;
 import java.util.NoSuchElementException;
+import java.util.Objects;
 
 
 
-public class DoublyLinkedList<T> {
+
+public class DoublyLinkedList<T> implements Iterable<T> {
 
     private  int size ;
     private static  class Node<E>{
@@ -84,6 +87,18 @@ public class DoublyLinkedList<T> {
 
     }
 
+    public int indexOf(T val){
+        int idx =0;
+        Node<T> temp = head;
+        while(temp != null){
+            if(Objects.equals(val , temp.data)) return idx;
+            idx++;
+            temp= temp.next;
+        }
+        return -1;
+    }
+
+
     public void addAtFront(T data){
         Node<T> newnode = new Node<>(data);
         if(head == null){
@@ -122,6 +137,20 @@ public class DoublyLinkedList<T> {
 
     }
 
+    public boolean contains(T val){
+        if(head == null) return  false;
+        Node<T> first = head , last = tail;
+        while (first != null && last != null) {
+            if(Objects.equals(first.data, val) || Objects.equals(val, last.data)){
+                return  true;
+            }
+        if(first == last || first.next == last) return false;
+        first = first.next;
+        last = last.prev;
+        }
+        return false;
+    }
+
     public T removeLast(){
         if (head == null) throw new NoSuchElementException();
         T removed = tail.data;
@@ -142,10 +171,42 @@ public class DoublyLinkedList<T> {
         return removed;
 
     }
+    
+    public boolean isEmpty(){
+        return size ==0;
+    }
 
     public int getSize(){
         return  this.size;
     }
 
+    public void clear(){
+        head = null;
+        tail=null;
+        size=0;
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return new Iterator<T>(){
+            private Node<T> current = head;
+
+            @Override
+            public boolean hasNext() {
+                return current != null;
+            }
+
+            @Override
+            public T next() {
+              if(!hasNext()){
+                 throw new NoSuchElementException();
+              }
+              T value = current.data;
+              current = current.next;
+              return value;
+
+            }
+        };
+    }
 
 }

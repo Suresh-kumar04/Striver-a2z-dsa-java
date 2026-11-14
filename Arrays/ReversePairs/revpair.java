@@ -1,6 +1,6 @@
 package Arrays.ReversePairs;
 
-public class revpair {
+ class revpair {
     public static void main(String[] args) {
 
     }
