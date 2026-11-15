@@ -1,4 +1,4 @@
-package LinkedList.SIngleLL.DoublyLL;
+package LinkedList.DoublyLL;
 
 import java.util.ConcurrentModificationException;
 import java.util.Iterator;
@@ -190,7 +190,19 @@ public class DoublyLinkedList<T> implements Iterable<T> {
         }
         return false;
     }
-
+    //-------------------reverse---------------------
+     public void reverse(){
+        Node<T> curr =  head;
+        while(curr!=null){
+            Node<T> nextnode = curr.next;
+            curr.next = curr.prev;
+            curr.prev = nextnode;
+            curr=nextnode;
+        }
+        Node<T> temp = head;
+        head = tail;
+        tail = temp;
+    }
    
     // ------------------miscellaneous----------------------
     public boolean isEmpty(){
@@ -209,6 +221,19 @@ public class DoublyLinkedList<T> implements Iterable<T> {
         size=0;
     }
 //-------------iteration--------------------
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder("[");
+        Node<T> temp = head;
+        while(temp != null){
+            sb.append(temp.data);
+            if(temp.next != null) sb.append("<->");
+            temp = temp.next;
+        }
+        return sb.append("]").toString();
+    }
+
     @Override
     public Iterator<T> iterator() {
         int expMod = modCount;
