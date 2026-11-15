@@ -2,7 +2,7 @@ package BinarySearch.BinarySearchIn2DArr;
 
 public class FindPeakin2dArr {
     public int[] findPeakGrid(int[][] mat) {
-        int m = mat.length , n = mat[0].length;
+        int m = mat.length ;
         int low =0,high = m-1;//row length so m-1
         while(low <= high){
             int mid = low +(high - low)/2;

@@ -1,10 +1,10 @@
 package BinarySearch.BinarySearchOnAns;
 public class floorSqrt {
     public static void main(String[] args) {
-        System.out.println(floorSqrt(4));
-        System.out.println(floorSqrt(8));
+        System.out.println(floorsqrt(4));
+        System.out.println(floorsqrt(8));
     }
-     public static  int floorSqrt(int n) {
+     public static  int floorsqrt(int n) {
         if(n<2) return n;
       int s=0,e=n;
       while(s <= e){

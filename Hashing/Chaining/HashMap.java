@@ -70,7 +70,8 @@ public class HashMap<K,V> {
 
 
 
-     class Entity<K, V> {
+     @SuppressWarnings("hiding")
+     class Entity<K , V> {
         K key;
         V value;
 

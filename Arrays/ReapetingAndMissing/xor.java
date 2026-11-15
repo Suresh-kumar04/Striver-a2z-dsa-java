@@ -1,7 +1,4 @@
 package Arrays.ReapetingAndMissing;
-
-import BasicRecurrsion.one;
-
 public class xor {
     public static void main(String[] args) {
 

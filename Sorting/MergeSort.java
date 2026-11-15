@@ -1,5 +1,6 @@
-import java.util.Arrays;
+package Sorting;
 
+import java.util.Arrays;
 class MergeSort {
 
   public static void main(String[] args) {

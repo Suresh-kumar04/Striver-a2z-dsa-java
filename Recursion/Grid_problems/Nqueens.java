@@ -10,7 +10,7 @@ public class Nqueens {
 
         Nqueens nq = new Nqueens();
         List<List<String>> out = nq.solveNQueens(4);
-        // System.out.println(out);
+        System.out.println(out);
     }
 
     public List<List<String>> solveNQueens(int n) {

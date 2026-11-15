@@ -1,11 +1,14 @@
+package Sorting;
 import java.util.Arrays;
-
 public class BubbleSort {
 
   public static void main(String[] args) {
-    long statTime = System.nanoTime();
+    long startTime = System.nanoTime();
     int[] arr = { 2, 3, 5, 2, 1, 9999, 0 };
     bubbleSort(arr);
+    long endTime = System.nanoTime();
+    long sortingTime = endTime - startTime;
+    System.out.println("Bubble Sort Time: " + sortingTime + " nanoseconds");
     System.out.println(Arrays.toString(arr));
   }
 

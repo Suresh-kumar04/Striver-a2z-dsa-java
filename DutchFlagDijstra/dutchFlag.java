@@ -8,11 +8,11 @@ public class dutchFlag {
     dutchFlag df = new dutchFlag();
     // sort array with 0,1,2,
     int[] arr = { 1, 0, 0, 2, 2, 2, 1, 2, 0 };
-    df.dutchFlag(arr);
+    df.dutchflag(arr);
     System.out.println(Arrays.toString(arr));
   }
 
-  void dutchFlag(int[] arr) {
+  void dutchflag(int[] arr) {
     int low = 0;
     int mid = 0;
     int high = arr.length - 1;

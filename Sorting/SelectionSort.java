@@ -1,7 +1,7 @@
+package Sorting;
 import java.util.Arrays;
 
 public class SelectionSort {
-
   public static void main(String[] args) {
     int[] arr = { 2, 5, 1, 3, 9, 8, 999, 0 };
     selectionSort(arr);

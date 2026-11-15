@@ -17,6 +17,7 @@ public class DoublyLinkedList<T> implements Iterable<T> {
         Node<E> next;
         Node<E> prev;
 
+        @SuppressWarnings("unused")
         Node(E data , Node<E> next , Node<E> prev){
             this.data = data;
             this.next =  next;

@@ -13,6 +13,7 @@ public class LinkedList<T> {
             this.data = data;
         }
 
+        @SuppressWarnings("unused")
         Node(E data , Node<E> next){
             this.data = data;
             this.next = next;

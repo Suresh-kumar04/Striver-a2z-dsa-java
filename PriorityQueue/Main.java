@@ -1,9 +1,9 @@
 package PriorityQueue;
 
-public class main {
+public class Main {
 
   public static void main(String[] args) throws Exception {
-    PriorityQueue<Integer> pq = new PriorityQueue();
+    PriorityQueue<Integer> pq = new PriorityQueue<>();
     pq.offer(44);
     pq.offer(43);
     pq.offer(44);
