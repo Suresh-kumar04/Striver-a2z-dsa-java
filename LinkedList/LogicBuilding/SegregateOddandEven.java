@@ -1,7 +1,9 @@
 package LinkedList.LogicBuilding;
 
+import LinkedList.ListNode;
+
 public class SegregateOddandEven {
-    
+
      public ListNode oddEvenList(ListNode head) {
         if(head == null ) return null;
         ListNode even = head.next;

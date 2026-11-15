@@ -1,4 +1,7 @@
 package LinkedList.LogicBuilding;
+
+import LinkedList.ListNode;
+
 class Add2NumbersinLL{
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

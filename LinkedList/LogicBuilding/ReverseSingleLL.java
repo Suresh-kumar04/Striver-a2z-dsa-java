@@ -1,5 +1,7 @@
 package LinkedList.LogicBuilding;
 
+import LinkedList.ListNode;
+
 public class ReverseSingleLL {
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;

@@ -1,5 +1,7 @@
 package LinkedList.LogicBuilding;
 
+import LinkedList.ListNode;
+
 public class RemoveNthnodeFromEnd {
      public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode(-1);

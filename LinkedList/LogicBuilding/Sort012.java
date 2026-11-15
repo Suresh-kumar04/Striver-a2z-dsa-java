@@ -1,5 +1,7 @@
 package LinkedList.LogicBuilding;
 
+import LinkedList.ListNode;
+
 public class Sort012 {
     public ListNode sortList(ListNode head) {
         ListNode zeroHead = new ListNode(), 
