@@ -1,4 +1,4 @@
-package ReversePairs;
+package MergeSortQues.ReversePairs;
 
 public class revpair {
     public static void main(String[] args) {
