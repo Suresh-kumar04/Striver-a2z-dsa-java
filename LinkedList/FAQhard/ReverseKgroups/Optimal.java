@@ -2,7 +2,7 @@ package LinkedList.FAQhard.ReverseKgroups;
 
 import LinkedList.ListNode;
 
-public class better {
+public class Optimal {
     //O(n)t O(1)space
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode dummy = new ListNode(0,head);
