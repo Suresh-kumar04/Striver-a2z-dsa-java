@@ -12,7 +12,7 @@ public class Recursion {
             tail = tail.next;
         }
         ListNode newHead = rev(head , tail);
-        newHead.next = reverseKGroup(newHead, k);
+        head.next = reverseKGroup(tail, k);
         return  newHead;
 
 
