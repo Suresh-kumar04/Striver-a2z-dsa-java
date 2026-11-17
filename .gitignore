@@ -4,10 +4,11 @@
 out/
 *.iml
 000imp/
-001EasyButTripy/
-silly/
-DONOT.txt
+001Easy/
+test/
+Note.txt
 *.html
 *.pdf
 *.png
+*.md
 test.java
