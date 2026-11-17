@@ -14,6 +14,7 @@ public class Optimal {
 }
 
    public Node copyRandomList(Node head) {
+    //O(n) , O(1)
         Node temp = head;
         //copy val and connect copy next to orignal
         while(temp!=null){
