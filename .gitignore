@@ -11,4 +11,5 @@ Note.txt
 *.pdf
 *.png
 *.md
+!ReadMe.md
 test.java
