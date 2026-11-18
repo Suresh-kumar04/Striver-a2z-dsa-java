@@ -22,8 +22,8 @@ Each folder holds the solutions for one topic. Files are named after the problem
 | Binary Search | [BinarySearch](./BinarySearch) | ✅ Done  |
 | Strings | [String](./String) | ✅ Done  |
 | Recursion | [Recursion](./Recursion/) | ✅ Done |
-| LinkedList | [LinkedList](./LinkedList/)| 🚧 In progress |
-| Bit Manipulation | [BitSetClass](./BitSetClass) | ✅ Done |
+| LinkedList | [LinkedList](./LinkedList/)| ✅ Done |
+| Bit Manipulation | [BitSetClass](./BitSetClass) | 🚧 In progress |
 | Priority Queue / Heaps | [PriorityQueue](./PriorityQueue) | ✅ Done |
 | Hashing | [HashingImp](./HashingImp) | ✅ Done |
 | Custom HashMap (chaining) | [Hashing/Chaining](./Hashing/Chaining) | ✅ Done |
