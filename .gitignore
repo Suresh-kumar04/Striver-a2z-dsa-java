@@ -6,7 +6,7 @@ out/
 000imp/
 001Easy/
 test/
-Note.txt
+*.txt
 *.html
 *.pdf
 *.png
