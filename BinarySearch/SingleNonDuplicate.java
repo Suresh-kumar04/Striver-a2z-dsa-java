@@ -1,5 +1,5 @@
 package BinarySearch;
-public class soBeauty {
+public class SingleNonDuplicate {
     public static void main(String[] args) {
         // Given an array nums sorted in non-decreasing order. Every number in the array
         // except one appears twice. Find the single number in the array.
