@@ -9,8 +9,8 @@ import java.util.Arrays;
 
     // Two intervals intersect if there is at least one common number between them. For example, the intervals [1, 5] and [5, 8] intersect.
 
-public class Better {
-//If multiple intervals overlap at a particular point, they must go into different groups. So, the core idea is to calculate the maximum number of overlaps at any time.
+public class MinimumGroup {
+//copy pase of FindPlatform 
      public int minGroups(int[][] intervals) {
         int[] start = new int[intervals.length];
         int[] end = new int[intervals.length];
