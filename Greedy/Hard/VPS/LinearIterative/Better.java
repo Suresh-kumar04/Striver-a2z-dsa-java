@@ -21,6 +21,7 @@ public class Better {
             range[1]++;
         }
         if(range[0] < 0) range[0] =0;
+        //if ')' count is negative , there's no way make it valid afterward
         if(range[1] < 0) return false;
        }
        return range[0] ==0;
