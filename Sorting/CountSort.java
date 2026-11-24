@@ -20,14 +20,13 @@ public class CountSort {
     for (int n : arr) {
       count[n]++;
     }
-    //reise the freq as prefix sum array
+    //reuse the freq as prefix sum array
     for (int i = 1; i < count.length; i++) {
       count[i] = count[i] + count[i - 1];
     }
     //need to new array inorder to preserve order
     int[] res = new int[arr.length];
     for (int i = arr.length - 1; i >= 0; i--) {
-      //??
       res[count[arr[i]] - 1] = arr[i];
       count[arr[i]]--;
     }
