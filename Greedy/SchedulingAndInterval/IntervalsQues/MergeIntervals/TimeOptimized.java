@@ -1,4 +1,4 @@
-package Greedy.SchedulingAndInterval.MergeIntervals;
+package Greedy.SchedulingAndInterval.IntervalsQues.MergeIntervals;
 
 import java.util.ArrayList;
 import java.util.Arrays;

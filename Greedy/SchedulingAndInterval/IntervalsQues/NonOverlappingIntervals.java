@@ -1,4 +1,4 @@
-package Greedy.SchedulingAndInterval;
+package Greedy.SchedulingAndInterval.IntervalsQues;
 
 import java.util.Arrays;
 
