@@ -14,7 +14,7 @@ public class Recursive {
             return  jumps;
         }
         int min = Integer.MAX_VALUE;
-        for (int i = 1; i <=nums.length; i++) {
+        for (int i = 1; i <=nums[idx]; i++) {
             min = Math.min(min,recurse(nums, jumps+1, idx + i));
         }
         return  min;
