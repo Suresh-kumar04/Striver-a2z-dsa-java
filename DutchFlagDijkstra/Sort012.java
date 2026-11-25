@@ -1,4 +1,4 @@
-package DutchFlagDijstra;
+package DutchFlagDijkstra;
 import LinkedList.ListNode;
 
 public class Sort012 {

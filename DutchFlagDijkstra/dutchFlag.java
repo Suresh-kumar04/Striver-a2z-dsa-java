@@ -1,4 +1,4 @@
-package DutchFlagDijstra;
+package DutchFlagDijkstra;
 
 import java.util.Arrays;
 

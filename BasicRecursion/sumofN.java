@@ -1,4 +1,4 @@
-package BasicRecurrsion;
+package BasicRecursion;
 
 public class sumofN {
 

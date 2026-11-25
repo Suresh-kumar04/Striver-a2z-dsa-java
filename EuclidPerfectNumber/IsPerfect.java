@@ -1,6 +1,6 @@
-package EcluidPrecfectNumber;
+package EuclidPerfectNumber;
 
-public class TeranceTao {
+public class IsPerfect {
 
   public static void main(String[] args) {
     // Euclid's theorem says that if 2^p − 1 is prime (a Mersenne prime), then

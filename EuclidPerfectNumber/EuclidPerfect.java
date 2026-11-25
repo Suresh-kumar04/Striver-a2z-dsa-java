@@ -1,6 +1,6 @@
-package EcluidPrecfectNumber;
+package EuclidPerfectNumber;
 
-public class EculidPerfect {
+public class EuclidPerfect {
 
   public static void main(String[] args) {
     System.out.println(isPerfect(6));
@@ -17,7 +17,7 @@ public class EculidPerfect {
     return true;
   }
 
-  static long EuclidPerfect(long p) {
+  static long euclidPerfect(long p) {
     // Euclid's theorem says that if 2^p − 1 is prime (a Mersenne prime), then
     // 2^(p−1) × (2^p − 1) is a perfect number.
     long Mersenne = (1L << p) - 1;
@@ -34,7 +34,7 @@ public class EculidPerfect {
     // Therefore 2p - 1 < 63
     // So p <= 31
     for (int p = 2; p <= 31; p++) {
-      long perfect = EuclidPerfect(p);
+      long perfect = euclidPerfect(p);
       if (perfect == 0)
         continue;
       if (perfect > n)
