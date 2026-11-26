@@ -8,7 +8,7 @@ public class Better {
         int max =0,l=0;
         Map<Integer,Integer> map = new HashMap<>();
         for(int r = 0;r<fruits.length;r++){
-            map.merge(fruits[r], 1, Integer :: sum);
+            map.merge(fruits[r], 1, Integer :: sum);//add 1 to the count of this fruit type, and if the type isn't in the map yet, start it at 1."
             while(map.size() >2){
                 int left = fruits[l];
                 map.put(left , map.get(left)-1);
