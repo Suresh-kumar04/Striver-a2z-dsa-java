@@ -28,7 +28,7 @@ Each folder holds the solutions for one topic. Files are named after the problem
 | Greedy | [Greedy](./Greedy) | ✅ Done  |
 | Sliding Window | [SlidingWindow](./SlidingWindow) | 🚧 In progress |
 | Priority Queue / Heaps | [PriorityQueue](./PriorityQueue) | ✅ Done |
-| Hashing | [HashingImp](./HashingImp) | ✅ Done |
+| Hashing | [HashingQuestions](./HashingQuestions) | ✅ Done |
 | Custom HashMap (chaining) | [Hashing/Chaining](./Hashing/Chaining) | ✅ Done |
 | Huffman Coding | [Huffman-coding](./Huffman-coding) | ✅ Done |
 | Euclid-Euler Perfect Number | [EuclidPrecfectNumber](./EuclidPerfectNumber) | ✅ Done |
@@ -58,7 +58,7 @@ java -cp Sorting BubbleSort
 
 Replace the path and class name with the file you want to run. Files that declare a `package` need to be run from the project root using the full package name, for example:
 ```bash
-java -cp . Hashing.Chaining.mainCls`.
+java -cp . Hashing.Chaining.Main.
 ```
 
 ## Connect
