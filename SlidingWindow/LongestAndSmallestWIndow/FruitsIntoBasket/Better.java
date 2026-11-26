@@ -5,6 +5,7 @@ import java.util.HashMap;
 
 public class Better {
     public int totalFruit(int[] fruits) {
+        //window shrinks
         int max =0,l=0;
         Map<Integer,Integer> map = new HashMap<>();
         for(int r = 0;r<fruits.length;r++){
