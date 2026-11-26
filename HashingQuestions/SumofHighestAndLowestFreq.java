@@ -1,4 +1,4 @@
-package HashingImp;
+package HashingQuestions;
 
 import java.util.HashMap;
 import java.util.Map;

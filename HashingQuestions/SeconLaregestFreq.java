@@ -1,12 +1,9 @@
-package HashingImp;
+package HashingQuestions;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class SeconLaregestFreq {
-
-  public static void main(String[] args) {
-  }
 
   public int secondMostFrequentElement(int[] nums) {
     Map<Integer, Integer> map = new HashMap<>();
