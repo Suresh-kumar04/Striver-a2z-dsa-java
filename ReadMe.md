@@ -58,7 +58,7 @@ java -cp Sorting BubbleSort
 
 Replace the path and class name with the file you want to run. Files that declare a `package` need to be run from the project root using the full package name, for example:
 ```bash
-java -cp . Hashing.Chaining.Main.
+java -cp . Hashing.Chaining.Main
 ```
 
 ## Connect
