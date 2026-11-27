@@ -2,7 +2,6 @@ package SlidingWindow.LongestAndSmallestWIndow.MinimumWindowSubseq;
 
 public class Optimal {
     public String minWindow(String s1, String s2) {
-        int l=0;
         int m = s1.length(),n = s2.length();
         int minLen = Integer.MAX_VALUE,minStart =-1;
 
