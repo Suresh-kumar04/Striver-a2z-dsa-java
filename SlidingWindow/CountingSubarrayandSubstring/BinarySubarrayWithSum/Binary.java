@@ -1,6 +1,6 @@
 package SlidingWindow.CountingSubarrayandSubstring.BinarySubarrayWithSum;
 
-public class Optimal {
+public class Binary {
       public int numSubarraysWithSum(int[] nums, int goal) {
 //         atMost(goal)      = [sum 0] + [sum 1] + ... + [sum goal-1] + [sum goal]
 //      -  atMost(goal - 1)  = [sum 0] + [sum 1] + ... + [sum goal-1]
